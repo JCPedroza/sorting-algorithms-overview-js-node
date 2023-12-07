@@ -1,7 +1,9 @@
-const bubbleSort = require('./bubble')
+const bubble = require('./bubble')
+const selection = require('./selection')
 
 const repo = [
-  bubbleSort
+  bubble,
+  selection
 ]
 
 module.exports = repo
